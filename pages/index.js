@@ -4,7 +4,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
 export async function getStaticProps(){
-  const allPostsData = getSortedPostData()
+  const allPostsData = getSortedPostsData()
   return {
     props: {
       allPostsData
